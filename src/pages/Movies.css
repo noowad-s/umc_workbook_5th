@@ -1,0 +1,63 @@
+.app-container {
+    display: inline-flex;
+    max-width: 1500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: #22254b; */
+  }
+
+.moviesForm {
+    display: inline-flex;
+    max-width: 960px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 5px;
+    font-style: normal;
+    background-color: #fff;
+    margin: 0 auto;
+  }
+
+  .moviesWrap {
+    width: 100px;
+    color: #ffffff;
+    font-size: 5px;
+    font-style: normal;
+    background-color: #373b69;
+    flex-basis: calc(12.5% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+.overviews {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8); /* 배경 색상 및 투명도 설정 */
+    color: white; /* 텍스트 색상 설정 */
+    padding: 10px; /* 내용과 가장자리 사이의 간격 설정 */
+    z-index: 1; /* 이미지 위에 레이어로 배치 */
+    bottom: 0; /* 아래에 배치 */
+    left: 0; /* 왼쪽에 배치 */
+    right: 0; /* 오른쪽에 배치 */
+    width: 80px; /* 부모 요소와 같은 너비로 설정 */
+    height: 135px; /* 부모 요소와 같은 높이로 설정 */
+    display: none; /* 초기에는 숨김 */
+    position: absolute;
+  }
+  
+  .moviesWrap:hover .overview {
+    display: block; /* 마우스를 올렸을 때 보이도록 함 */
+  }
+  
+
+  .moviesTitle {
+    margin-left: 10px;
+  }
+
+  .poster{
+    width: 100px;
+    height: 150px;
+  }
