@@ -6,7 +6,6 @@ import Movies from './pages/Movies';
 import Home from './pages/Home'; 
 import NotFound from './pages/NotFound';
 import Login from './pages/Login';
-// import Login2 from './pages/Login2'
 import MovieDetail from './pages/MovieDetail';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Route path="/TV" element={<TV/>} />
           <Route path="/Celebrity" element={<Celebrity/>} />
           <Route path="/Login" element={<Login/>} />
-          {/* <Route path="/Login2" element={<Login2/>} /> */}
           <Route path="/*" element={<NotFound/>} />
           <Route path="/movie/:title" element={<MovieDetail/>} />
         </Routes>

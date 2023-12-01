@@ -1,8 +1,6 @@
-// import React, { useState } from 'react';
 import styled from "styled-components";
 import Page from "../Components/PageBasic";
 import { tvs } from "../tvDummy"
-import './TV.css';
 
 function TV(){
     return (

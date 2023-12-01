@@ -1,16 +1,3 @@
-// import React from 'react';
-// import Ad from './Ad';
-
-// function AdPage() {
-//   return (
-//     <div>
-//       <Ad isVisible={true} />
-//     </div>
-//   );
-// }
-
-// export default AdPage;
-
 import React, { Component } from 'react';
 import Ad from './Ad';
 
